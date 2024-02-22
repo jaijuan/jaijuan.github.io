@@ -44,6 +44,13 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
+    createPlatform(200, 620, 19, 15)
+    createPlatform(350, 500, 10, 19)
+    createPlatform(500, 380, 8, 14) 
+    createPlatform(650, 260, 5, 15)
+    createPlatform(870, 150, 3, 16)
+    createPlatform(149,260,131,10)
+    createPlatform(1100,300,380,10)
 
 
     
@@ -52,6 +59,11 @@ $(function () {
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
+    
+    createCollectable('database',200,20,1,1)
+    createCollectable('diamond' ,1300,260,0,0)
+
+
 
 
 
@@ -62,6 +74,7 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
+    creat
 
 
 
